@@ -5,6 +5,10 @@ Leader: Atienzo, Clarence M.
 
 
 Guide of the Calculator
+
+
+
+
 Put ID - ARRIVAL - BURST THEN CLICK ADD
 its up to you if how many ids u put in then after u can click compute 
 
