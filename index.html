@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPU Scheduling Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CPU-Scheduling Calculator</h1>
+    <div class="flex">
+      <input type="text" id="pid" placeholder="PID (e.g. P1)">
+      <input type="number" id="arrival" placeholder="Arrival">
+      <input type="number" id="burst" placeholder="Burst">
+      <button onclick="addProcess()">Add</button>
+      <button onclick="clearProcesses()">Clear</button>
+    </div>
+    <div class="flex">
+      <label>Algorithm:</label>
+      <select id="algo" onchange="toggleQuantum()">
+        <option value="FCFS">FCFS</option>
+        <option value="SJF">SJF</option>
+        <option value="RR">Round Robin</option>
+      </select>
+      <div id="quantumBox" style="display:none;">
+        <label>Quantum:</label>
+        <input type="number" id="quantum" value="2" min="1" style="width:60px;">
+      </div>
+      <button onclick="compute()">Compute</button>
+    </div>
+
+    <table id="procTable">
+      <thead><tr><th>PID</th><th>Arrival</th><th>Burst</th></tr></thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

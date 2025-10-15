@@ -1,0 +1,21 @@
+body {
+  font-family: Serif, sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+h1 { text-align: center; }
+.container { max-width: 800px; margin: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { border: 1px solid #333; padding: 6px; text-align: center; }
+th { background: #1f1f1f; }
+input, select, button {
+  background: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 4px;
+}
+button { cursor: pointer; }
+.flex { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
