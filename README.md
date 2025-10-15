@@ -1,7 +1,7 @@
 GROUP MEMBERS
 Leader: Atienzo, Clarence M.
-Liwag, Marc Angelo
-Pacia, Luz Adrian Y.
+= Liwag, Marc Angelo
+= Pacia, Luz Adrian Y.
 
 
 Guide of the Calculator
